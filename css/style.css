@@ -1,0 +1,59 @@
+body {
+  background-color: #343a40;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
+p {
+  color: #fff;
+}
+
+.content-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.result {
+  padding: 60px 20px 20px;
+}
+
+.result a {
+  color: #343a40;
+}
+
+@media screen and (min-width:576px) {
+  .row {
+    margin-bottom: 30px;
+  }
+}
+
+
+.submit-color {
+  background-color: #DE660D;
+  color: white;
+  opacity: 0.9;
+  transition: all 0.4s;
+  margin: 0 auto;
+}
+
+.submit-color:hover {
+  opacity: 1.0;
+}
+
+.submit-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #343a40;
+  text-align: center;
+}
